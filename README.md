@@ -32,6 +32,26 @@ This project was built using these tools:
 
 ### Installation and test running
 
+Installing steps (see video below):
+
+    git clone https://github.com/Mr-Freewan/python-project-49
+
+    cd python-project-49/
+
+    poetry install
+
+    poetry build
+
+Test running with poetry:
+
+    poetry run brain-games
+
+Test running without poetry:
+
+    make package-install
+
+    brain-games
+
 [![asciicast](https://asciinema.org/a/hYQNtkBxCGTnsVuZxs9v9ivAY.svg)](https://asciinema.org/a/hYQNtkBxCGTnsVuZxs9v9ivAY)
 
 ---
@@ -42,20 +62,60 @@ This project was built using these tools:
 
 ### brain-even
 
+Game launch:
+
+    brain-even
+
+or
+
+    poetry run brain-even
+
 [![asciicast](https://asciinema.org/a/fpz9loLHv1wHWKhZqPWVVOL66.svg)](https://asciinema.org/a/fpz9loLHv1wHWKhZqPWVVOL66)
 
 ### brain-calc
+
+Game launch:
+
+    brain-calc
+
+or
+
+    poetry run brain-calc
 
 [![asciicast](https://asciinema.org/a/uRWmeOM16gsRtOKBUceeWZPA9.svg)](https://asciinema.org/a/uRWmeOM16gsRtOKBUceeWZPA9)
 
 ### brain-gcd
 
+Game launch:
+
+    brain-gcd
+
+or
+
+    poetry run brain-gcd
+
 [![asciicast](https://asciinema.org/a/NuZpqI3mQKiT0o1swWiyox2E6.svg)](https://asciinema.org/a/NuZpqI3mQKiT0o1swWiyox2E6)
 
 ### brain-progression
 
+Game launch:
+
+    brain-progression
+
+or
+
+    poetry run brain-progression
+
 [![asciicast](https://asciinema.org/a/FTwWYGbgJcKiw6a7hhiDt0gU2.svg)](https://asciinema.org/a/FTwWYGbgJcKiw6a7hhiDt0gU2)
 
 ### brain-prime
+
+Game launch:
+
+    brain-prime
+
+or
+
+    poetry run brain-prime
 
 [![asciicast](https://asciinema.org/a/IJ1aoIilIDD6h8m3yzqrTA359.svg)](https://asciinema.org/a/IJ1aoIilIDD6h8m3yzqrTA359)
