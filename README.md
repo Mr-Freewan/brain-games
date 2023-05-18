@@ -32,6 +32,30 @@ This project was built using these tools:
 
 ### Installation and test running
 
-[![asciicast](https://asciinema.org/a/BDBQzHqAkNXZjmAAI99LedE6u.svg)](https://asciinema.org/a/BDBQzHqAkNXZjmAAI99LedE6u)
+[![asciicast](https://asciinema.org/a/hYQNtkBxCGTnsVuZxs9v9ivAY.svg)](https://asciinema.org/a/hYQNtkBxCGTnsVuZxs9v9ivAY)
 
 ---
+
+### Games demonstration:
+
+---
+
+### brain-even
+
+[![asciicast](https://asciinema.org/a/fpz9loLHv1wHWKhZqPWVVOL66.svg)](https://asciinema.org/a/fpz9loLHv1wHWKhZqPWVVOL66)
+
+### brain-calc
+
+[![asciicast](https://asciinema.org/a/uRWmeOM16gsRtOKBUceeWZPA9.svg)](https://asciinema.org/a/uRWmeOM16gsRtOKBUceeWZPA9)
+
+### brain-gcd
+
+[![asciicast](https://asciinema.org/a/NuZpqI3mQKiT0o1swWiyox2E6.svg)](https://asciinema.org/a/NuZpqI3mQKiT0o1swWiyox2E6)
+
+### brain-progression
+
+[![asciicast](https://asciinema.org/a/FTwWYGbgJcKiw6a7hhiDt0gU2.svg)](https://asciinema.org/a/FTwWYGbgJcKiw6a7hhiDt0gU2)
+
+### brain-prime
+
+[![asciicast](https://asciinema.org/a/IJ1aoIilIDD6h8m3yzqrTA359.svg)](https://asciinema.org/a/IJ1aoIilIDD6h8m3yzqrTA359)
