@@ -1,6 +1,8 @@
-import prompt
-from brain_games.cli import welcome_user
+from __future__ import annotations
 from types import ModuleType
+
+from brain_games.cli import welcome_user
+import prompt
 
 
 MAX_SUCCESSFUL_ATTEMPTS = 3
@@ -20,6 +22,7 @@ def process_game(game: ModuleType | object) -> None:
                  function or method. The function must generate
                  question and correct answer to this question
                  and returns it by tuple [question, correct_answer].
+    :type game: ModuleType | object
     """
     user_name = welcome_user()  # Welcome user and get user's name
     print(game.DESCRIPTION)  # Print game description (rules)

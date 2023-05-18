@@ -1,3 +1,4 @@
+from __future__ import annotations
 import random
 
 
@@ -8,11 +9,14 @@ def get_question_and_answer() -> tuple[str, str]:
     """
     The function generates random integer in [1, 100] range and
     correct answer to question "Is this number even?". Answer can
-    be 'yes' or 'no'
+    be 'yes' or 'no'.
 
-    :return: Tuple (str, str) of question and correct answer to question
+    :return: Question and correct answer to question
+    :rtype: tuple[str, str]
     """
-    number = random.randint(1, 100)
+    MIN_NUMBER, MAX_NUMBER = 1, 100
+
+    number = random.randint(MIN_NUMBER, MAX_NUMBER)
     right_answer = 'yes' if number % 2 == 0 else 'no'
 
     return str(number), right_answer
