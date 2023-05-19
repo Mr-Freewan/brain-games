@@ -1,6 +1,6 @@
 from __future__ import annotations
-import random
 
+import random
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 

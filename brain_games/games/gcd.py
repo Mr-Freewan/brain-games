@@ -1,7 +1,7 @@
 from __future__ import annotations
-import random
-import math
 
+import math
+import random
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 

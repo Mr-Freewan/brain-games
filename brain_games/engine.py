@@ -1,8 +1,9 @@
 from __future__ import annotations
 from types import ModuleType
 
-from brain_games.cli import welcome_user
 import prompt
+
+from brain_games.cli import welcome_user
 
 
 MAX_SUCCESSFUL_ATTEMPTS = 3

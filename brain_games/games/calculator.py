@@ -1,6 +1,6 @@
 from __future__ import annotations
-from random import randint, choice
 
+from random import randint, choice
 
 DESCRIPTION = 'What is the result of the expression?'
 
@@ -13,7 +13,8 @@ def get_question_and_answer() -> tuple[str, str]:
     :return: Question and correct answer to question
     :rtype: tuple[str, str]
     """
-    MIN_NUMBER, MAX_NUMBER = 1, 100
+    MIN_NUMBER = 1
+    MAX_NUMBER = 100
     OPERATIONS = ['+', '-', '*']
 
     operand_1 = randint(MIN_NUMBER, MAX_NUMBER)

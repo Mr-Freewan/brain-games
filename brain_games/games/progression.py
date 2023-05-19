@@ -60,9 +60,9 @@ def get_question_and_answer() -> tuple[str, str]:
     progression = make_arithmetic_progression(first_number)
     progression = list(map(str, progression))
 
-    question_index = random.randint(0, len(progression) - 1)
-    correct_answer = progression[question_index]
-    progression[question_index] = '..'
+    skip_component_index = random.randint(0, len(progression) - 1)
+    correct_answer = progression[skip_component_index]
+    progression[skip_component_index] = '..'
 
     question = ' '.join(progression)
 
