@@ -30,9 +30,16 @@ This project was built using these tools:
 
 ---
 
-### Installation and test running
+### Installation with pip
 
-Installing steps (see video below):
+    pip install git+https://github.com/Mr-Freewan/python-project-49.git
+    
+Test running after installation:
+
+    brain-games
+
+### Building from repo and test running
+Steps (see video below):
 
     git clone https://github.com/Mr-Freewan/python-project-49
 
