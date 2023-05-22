@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from operator import add, mul, sub
 from random import randint, choice
 
 DESCRIPTION = 'What is the result of the expression?'
@@ -15,13 +16,13 @@ def get_question_and_answer() -> tuple[str, str]:
     """
     MIN_NUMBER = 1
     MAX_NUMBER = 100
-    OPERATIONS = ['+', '-', '*']
+    OPERATIONS = [(add, '+'), (sub, '-'), (mul, '*')]
 
     operand_1 = randint(MIN_NUMBER, MAX_NUMBER)
     operand_2 = randint(MIN_NUMBER, MAX_NUMBER)
-    operation = choice(OPERATIONS)
+    operation, operator = choice(OPERATIONS)
 
-    question = f'{operand_1} {operation} {operand_2}'
-    correct_answer = eval(question)
+    question = f'{operand_1} {operator} {operand_2}'
+    correct_answer = operation(operand_1, operand_2)
 
     return question, str(correct_answer)
