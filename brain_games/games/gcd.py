@@ -8,7 +8,7 @@ DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 def get_gcd(num_1: int, num_2: int) -> int:
     """
-    Calculate the Greatest Common Divisor of num_1 and num_2. 
+    Calculate the Greatest Common Divisor of num_1 and num_2.
     Euclidean algorithm used.
 
     :param num_1: First number.
