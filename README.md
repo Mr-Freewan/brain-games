@@ -32,7 +32,7 @@ This project was built using these tools:
 
 ### Installation with pip
 
-    pip install git+https://github.com/Mr-Freewan/python-project-49.git
+    pip install git+https://github.com/Mr-Freewan/brain-games.git
     
 Test running after installation:
 
@@ -41,9 +41,9 @@ Test running after installation:
 ### Building from repo and test running
 Steps (see video below):
 
-    git clone https://github.com/Mr-Freewan/python-project-49
+    git clone https://github.com/Mr-Freewan/brain-games.git
 
-    cd python-project-49/
+    cd brain-games/
 
     poetry install
 
